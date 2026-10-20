@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }   
+        body{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background:linear-gradient(90deg , skyblue, violet);
+        }
+        form{
+            height: 80%;
+            border-radius: 10px;
+            width: 30%;
+            background-color: white;
+        }
+        .basic, .email, .password, .button{
+            /* border: 1px solid black; */
+            width: 90%;
+            margin: auto;
+        }
+        .email, .password, .button, h1{
+            height: 15%;
+        }
+        input{
+            margin-top: 3%;
+            
+        }
+        .basic{
+            height: 30%;
+        }
+        .button{
+            text-align: center;
+        }
+        button:hover{
+            background:linear-gradient(90deg , skyblue, blue);
+        }
+        button{
+            height: 50%;
+            width: 100%;
+            background:linear-gradient(90deg , skyblue, purple);
+            color: white;
+            border: none;
+            border-radius: 10px;
+        }
+        a{
+            text-decoration: none;
+            
+        }
+        </style>
+</head>
+<body>
+    <form action="">
+        <h1 align="center">Sign up</h1>
+        <div class="basic">
+            <label for="">First Name:</label>
+            <input type="text" name="" id="" required style="margin-left: 24%;"><br>
+            <label for="">Last Name:</label>
+            <input type="text" name="" id="" required style="margin-left: 25%;"><br>
+            <label for="">Gender:</label>
+            <input type="radio" name="gender" >Male 
+            <input type="radio" name="gender">Female <br>
+            <label for="">Date of Birth</label>
+            <input type="Date" name="" id="" style="margin-left: 25%;"><br>
+            <label for="">Mobile No.</label>
+            <input type="tel" name="" id="" style="margin-left: 25%;"><br>
+        </div>
+        <div class="email">
+            <label for="">Email:</label>
+            <input type="email" name="" id=""style="margin-left: 34%;"><br>
+            <label for="">Conform Email:</label>
+            <input type="email" name="" id="" style="margin-left: 17%;"><br>
+        </div>
+        <div class="password">
+            <label for="">Password:</label> 
+            <input type="password" name="" id=""style="margin-left: 27%;"><br>
+            <label for="">Conform Password:</label>
+            <input type="password" name="" id="" style="margin-left: 10%;"><br>
+        </div>
+        <div class="button">
+            <input type="checkbox" name="" id="">Terms & Conditions <br>
+            <button>Sign up</button>
+            <p>Already a Member ? <a href="index.html">Log In</a></p>
+        </div>
+    </form>
+</body>
+</html>
